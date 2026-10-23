@@ -11,7 +11,9 @@
  * prompt: Text, der vor der Eingabe angezeigt wird.
  * result: Zeiger auf die Variable, in der die Zahl gespeichert werden soll.
  * Rueckgabewert 1 = Eingabe war gueltig, 0 = Eingabe ungueltig/EOF.
- * fgets() ist hier robuster als scanf(), weil wir die komplette Zeile pruefen. */
+ * fgets() ist hier robuster als scanf(), weil wir die komplette Zeile pruefen. 
+ 
+ kommentare ki generiert aus einfachen stichpunkten*/
 int read_int(const char *prompt, int *result)
 {
     char line[128], *end;
